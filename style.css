@@ -37,13 +37,13 @@ em {
 	-webkit-box-shadow: 3px 4px 0px 0px #5D4037;
 	box-shadow: 3px 4px 0px 0px #5D4037;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #A1887F), color-stop(1, #795548));
-	background: -moz-linear-gradient(top, #A1887F 5%, #795548 100%);
-	background: -webkit-linear-gradient(top, #A1887F 5%, #795548 100%);
-	background: -o-linear-gradient(top, #A1887F 5%, #795548 100%);
-	background: -ms-linear-gradient(top, #A1887F 5%, #795548 100%);
-	background: linear-gradient(to bottom, #A1887F 5%, #795548 100%);
+	background: -moz-linear-gradient(top, #FF00FF 5%, #795548 100%);
+	background: -webkit-linear-gradient(top, #FF00FF 5%, #795548 100%);
+	background: -o-linear-gradient(top, #FF00FF 5%, #795548 100%);
+	background: -ms-linear-gradient(top, #FF00FF 5%, #795548 100%);
+	background: linear-gradient(to bottom, #FF00FF 5%, #795548 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A1887F', endColorstr='#795548',GradientType=0);
-	background-color: #A1887F;
+	background-color: #FF00FF;
 	-moz-border-radius: 0.2em;
 	-webkit-border-radius: 0.2em;
 	border-radius: 0.3em;
@@ -61,7 +61,7 @@ em {
 	background: -ms-linear-gradient(top, #795548 5%, #A1887F 100%);
 	background: linear-gradient(to bottom, #795548 5%, #A1887F 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#795548', endColorstr='#A1887F',GradientType=0);
-	background-color: #795548;
+	background-color: #faebd7;
 }
 
 .brown-button:active {
@@ -76,9 +76,11 @@ em {
 h1 {
     font-family: 'Allison', cursive;
     text-align: center;
-    font-size: 2em;
-    padding: 0.6em;
+    font-size: 3.5em;
+    /*padding: 0.2em;*/
     text-decoration: none;
+    color: #fffaf0;
+    text-shadow: 2px 2px black;
 }
 
 .tool-tip {
@@ -162,7 +164,7 @@ h1 {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #A1887F;
+    background-color: #fffaf0;
     border-radius: 0.3em;
     box-shadow: 0 5px 5px #808080;
 }
@@ -276,6 +278,16 @@ h1 {
 .close:hover, .close:focus {
     color: #8D6E63;
     cursor: pointer;
+}
+
+.gif{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif img{
+    width: 30%;
 }
 
 /* Page Footer */
